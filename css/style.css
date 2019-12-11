@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+  max-width: 400px;
+}
+
+.overlay {
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+  background-color: #fff;
+  opacity: 0;
+  transition: opacity .35s ease-in-out;
+    max-width: 400px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.overlay:hover {
+  opacity: 0.8;
+}
+
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+.fade:hover {
+    opacity: 0.2;
+    }*/
